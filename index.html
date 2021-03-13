@@ -4,9 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Ishika Saha</title>
+  <!--auto compiled css & Js-->
+  <link rel="stylesheet" type="text/css" href="css\styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sacramento&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css\styles.css">
   <link rel="shortcut icon" type="image/png" href="I:\CSS-My site\Images\favicon.png" />
 </head>
 
@@ -25,30 +27,70 @@
     <div class="profile">
       <img src="I:\CSS-My site\Images\ishika.png" alt="My Profile picture">
       <h2>Hello</h2>
-      <p class = "intro"> I'm currently a post-graduate student of Economics. I love to code, draw and eat Biryani.</p>
+      <p class="intro"> I'm currently a post-graduate student of Economics at Jadavpur University. I love to code, draw and eat Biryani.</p>
     </div>
-    <hr >
+    <hr>
     <div class="skills">
       <h2>My Skills</h2>
       <div class="skill-row">
         <img class="coding" src="I:\CSS-My site\Images\coding.png" alt="">
-        <h3>SQL, HTML, CSS, Java, Python</h3>
-        <p class = "coding_desc">I started to learn coding from class V in my school. My elder brother taught me. I learnt Java and scored a perfect 100 in my ISC.
+        <h3>SQL, HTML, CSS, Java, Python and Javascript</h3>
+        <p class="coding_desc">I started to learn coding from class V in my school. My elder brother taught me. I learnt Java and scored a perfect 100 in my ISC.
           During my graduation, I started learning Python and SQL for data analysis and currently I'm learning Web Development.</p>
       </div>
       <div class="skill-row">
         <img class="drawing" src="I:\CSS-My site\Images\drawing.png" alt="">
         <h3>Sketching</h3>
-        <p class = "drawing_desc"> I'm a self taught artist, and started learning from 2018. I love to draw portraits. Currently I'm learing colouring.</p>
+        <p class="drawing_desc"> I'm a self taught artist, and started learning from 2018. I love to draw portraits. Currently I'm learing colouring.</p>
       </div>
     </div>
     <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you love Biryani as much as I do</h3>
-      <p>Let's talk about how tasty it is. We can code and sketch while we discuss! </p>
-      <a class="btn" href="mailto:ishika.saha.97@email.com">CONTACT ME</a>
+
+    <!-- Flickity HTML init -->
+    <!-- Slider -->
+    <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay":true}'>
+      <div class="carousel-cell">
+        <img src="I:\CSS-My site\Images\baba.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="I:\CSS-My site\Images\timothy.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="I:\CSS-My site\Images\logan.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="I:\CSS-My site\Images\snape.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="I:\CSS-My site\Images\girl1.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="I:\CSS-My site\Images\girl2.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="I:\CSS-My site\Images\transition.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="I:\CSS-My site\Images\girl3.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="I:\CSS-My site\Images\girl5.jpg">
+      </div>
     </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+
+  </div>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>If you love Biryani as much as I do</h3>
+    <p>Let's talk about how tasty it is. We can code and sketch while we discuss! </p>
+    <a class="btn" href="mailto:ishika.saha.97@email.com">CONTACT ME</a>
+  </div>
   </div>
 
 
@@ -56,7 +98,7 @@
     <a class="footer-link" href="https://www.linkedin.com/in/ishika-saha/">LinkedIn</a>
     <a class="footer-link" href="https://github.com/97ishika">Github</a>
     <a class="footer-link" href="https://www.instagram.com/schizzika/">Instagram</a>
-    <p class = "copy_right_msg">© 2021 Ishika Saha</p>
+    <p class="copy_right_msg">© 2021 Ishika Saha</p>
   </div>
 
 </body>
